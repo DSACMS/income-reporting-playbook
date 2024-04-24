@@ -1,0 +1,186 @@
+---
+---
+
+@import "{{ site.theme }}";
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Source+Sans+3:wght@300;400;700&display=swap");
+// DO NOT DELETE THE ABOVE LINES
+
+h1,
+h2,
+h3 {
+	font-family: "Merriweather", serif;
+	color: #103c68;
+}
+
+h4,
+h5,
+h6 {
+	font-family: "Source Sans 3", Helvetica Neue, Helvetica, Roboto, Arial,
+		sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	padding: 24px 0px;
+}
+
+p,
+blockquote,
+col,
+ul,
+li,
+ol,
+dl,
+table,
+pre {
+	color: black;
+	font-family: "Source Sans 3", Helvetica Neue, Helvetica, Roboto, Arial,
+		sans-serif;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+table {
+	display: block;
+}
+
+table td {
+	border: 1px solid #dfe2e5;
+}
+
+table th {
+	background: #103c68;
+	color: white;
+}
+
+table th,
+table td {
+	padding: 10px 20px;
+}
+
+tr:nth-child(even) {
+	background-color: #f6f8fa;
+}
+
+ul {
+	margin: 16px;
+}
+
+.row {
+	display: inline-block;
+	width: 100%;
+}
+
+.column {
+	max-width: 50%;
+	display: inline-block;
+	// Linter expects floats to be ignored with inline-blocks but below renders correctly.
+	float: left;
+	padding: 0px;
+}
+
+body,
+div {
+	color: black;
+	font-family: "Source Sans 3", Helvetica Neue, Helvetica, Roboto, Arial,
+		sans-serif;
+}
+
+img {
+	max-width: 100%;
+	border: 1px solid;
+	border-color: #5d5d5d;
+}
+
+a {
+	text-decoration: underline;
+	color: #0351aa;
+}
+
+ul {
+	margin: 16px;
+}
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	width: 200px;
+	background-color: black;
+	color: white;
+	text-align: left;
+	border-radius: 6px;
+	padding: 5px;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+}
+
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+	.row .column {
+		max-width: 100%;
+		float: none;
+	}
+	img {
+		max-width: 100%;
+	}
+	figure {
+		margin: 10px 0px;
+	}
+	table {
+		width: 100%;
+	}
+	tr {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: row;
+		flex-direction: row;
+	}
+	td,
+	th {
+		display: block;
+		/*flex-grow | flex-shrink | flex-basis   */
+		-ms-flex: 1 1 auto;
+		flex: 1 1 auto;
+	}
+
+	tr {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		border-bottom: 3px solid #ccc;
+		display: block;
+	}
+	td {
+		float: left\9;
+		width: 100%;
+	}
+}
+
+#work-in-progress-message {
+	display: none;
+}

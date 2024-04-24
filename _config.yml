@@ -1,0 +1,6 @@
+baseurl: "/FFS-IncomeReportingToolkit"
+defaults:
+    scope:
+      path: ""
+    values:
+      layout: "page"

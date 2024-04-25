@@ -38,7 +38,7 @@ make serve
 ```
 
 You should now be able to access the site at:
-<http://localhost:4000/FFS-IncomeReportingToolkit/?secret=hithere>
+<http://localhost:4000/income-reporting-playbook/?secret=underconstruction>
 
 ## Contributing
 

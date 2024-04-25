@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', (event) => {
   const secret = getUrlParameter('secret');
-  if (secret != "hithere") {
+  if (secret != "underconstruction") {
     document.getElementById('primary').style.display = 'none';
     document.getElementById('work-in-progress-message').style.display = 'block';
   }

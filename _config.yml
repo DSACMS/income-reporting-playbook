@@ -1,4 +1,4 @@
-baseurl: "/FFS-IncomeReportingToolkit"
+baseurl: "/income-reporting-playbook"
 defaults:
     scope:
       path: ""

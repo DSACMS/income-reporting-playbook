@@ -48,6 +48,24 @@ We’re continuously improving and want to hear from you. Help us by emailing yo
 
 The contents of this repository are managed by **Nava**. You can contact Nava using this email address: [Income-reporting-project@navapbc.com](mailto:Income-reporting-project@navapbc.com).
 
+## Policies
+
+### Open Source Policy
+
+We adhere to the [CMS Open Source
+Policy](https://github.com/CMSGov/cms-open-source-policy). If you have any
+questions, just [shoot us an email](mailto:opensource@cms.hhs.gov).
+
+### Security and Responsible Disclosure Policy
+
+*Submit a vulnerability:* Unfortunately, we cannot accept secure submissions via
+email or via GitHub Issues. Please use our website to submit vulnerabilities at
+[https://hhs.responsibledisclosure.com](https://hhs.responsibledisclosure.com).
+HHS maintains an acknowledgements page to recognize your efforts on behalf of
+the American public, but you are also welcome to submit anonymously.
+
+For more information about our Security, Vulnerability, and Responsible Disclosure Policies, see [SECURITY.md](SECURITY.md).
+
 ## Public domain
 
 This project is in the public domain within the United States, and copyright

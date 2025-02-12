@@ -1,25 +1,25 @@
 {
   "name": "income-reporting-playbook",
   "description": "The Income Reporting Playbook will offer guidance and templates to improve the client experience of providing income during benefit applications and renewals. It is currently being developed by Nava in conjunction with USDS and DSAC.",
-  "longDescription": "",
-  "status": "",
+  "longDescription": "This project is being developed by Nava in collaboration with USDS. The Income Reporting Playbook will offer guidance and templates to improve the client experience of providing income during benefit applications and renewals. In this playbook, you’ll find: Recommended best practices, Common terms and plain language definitions, Example language and visual templates for income Following this guidance can improve application form accessibility, equity, and usability.",
+  "status": "Production",
   "permissions": {
     "license": [
       {
-        "name": "",
-        "URL": ""
+        "name": "CC0 1.0 Universal",
+        "URL": "https://github.com/DSACMS/income-reporting-playbook/blob/main/LICENSE"
       }
     ],
-    "usageType": "",
+    "usageType": "openSource",
     "exemptionText": ""
   },
-  "organization": "",
+  "organization": "Centers for Medicare & Medicaid Services",
   "repositoryURL": "https://github.com/DSACMS/income-reporting-playbook",
   "vcs": "git",
   "laborHours": 2295,
-  "platforms": [],
-  "categories": [],
-  "softwareType": "",
+  "platforms": ["web"],
+  "categories": ["resource-management", "knowledge-management"],
+  "softwareType": "standalone/web",
   "languages": [
     "HTML",
     "SCSS",
@@ -27,24 +27,24 @@
     "Makefile",
     "Ruby"
   ],
-  "maintenance": "",
+  "maintenance": "internal",
   "date": {
     "created": "2023-09-29T19:39:30Z",
     "lastModified": "2025-02-12T18:57:31Z",
     "metaDataLastUpdated": "2025-02-12T18:58:41.245Z"
   },
-  "tags": [],
+  "tags": ["repository", "playbook"],
   "contact": {
-    "email": "",
-    "name": ""
+    "email": "opensource@cms.hhs.gov",
+    "name": "CMS/OA/DSAC"
   },
   "localisation": false,
-  "repositoryType": "",
+  "repositoryType": "website",
   "userInput": false,
-  "fismaLevel": "",
-  "group": "",
-  "subsetInHealthcare": [],
-  "userType": [],
-  "repositoryHost": "github",
-  "maturityModelTier": 0
+  "fismaLevel": "low",
+  "group": "CMS/OA/DSAC",
+  "subsetInHealthcare": ["operational"],
+  "userType": ["government"],
+  "repositoryHost": "github.com/DSACMS",
+  "maturityModelTier": 3
 }

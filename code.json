@@ -1,0 +1,50 @@
+{
+  "name": "income-reporting-playbook",
+  "description": "The Income Reporting Playbook will offer guidance and templates to improve the client experience of providing income during benefit applications and renewals. It is currently being developed by Nava in conjunction with USDS and DSAC.",
+  "longDescription": "",
+  "status": "",
+  "permissions": {
+    "license": [
+      {
+        "name": "",
+        "URL": ""
+      }
+    ],
+    "usageType": "",
+    "exemptionText": ""
+  },
+  "organization": "",
+  "repositoryURL": "https://github.com/DSACMS/income-reporting-playbook",
+  "vcs": "git",
+  "laborHours": 2295,
+  "platforms": [],
+  "categories": [],
+  "softwareType": "",
+  "languages": [
+    "HTML",
+    "SCSS",
+    "JavaScript",
+    "Makefile",
+    "Ruby"
+  ],
+  "maintenance": "",
+  "date": {
+    "created": "2023-09-29T19:39:30Z",
+    "lastModified": "2025-02-12T18:57:31Z",
+    "metaDataLastUpdated": "2025-02-12T18:58:41.245Z"
+  },
+  "tags": [],
+  "contact": {
+    "email": "",
+    "name": ""
+  },
+  "localisation": false,
+  "repositoryType": "",
+  "userInput": false,
+  "fismaLevel": "",
+  "group": "",
+  "subsetInHealthcare": [],
+  "userType": [],
+  "repositoryHost": "github",
+  "maturityModelTier": 0
+}

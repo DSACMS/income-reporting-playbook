@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # see: https://pages.github.com/versions/
-gem 'github-pages', group: :jekyll_plugins
+gem 'github-pages', '>= 232', group: :jekyll_plugins
 
 # jekyll dependencies that used to be in stdlib, but are now gems:
 gem 'base64'

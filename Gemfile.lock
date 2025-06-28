@@ -274,26 +274,23 @@ GEM
     unf_ext (0.0.9.1)
     unicode-display_width (1.8.0)
     uri (0.13.0)
-    webrick (1.8.1)
+    webrick (1.9.1)
 
 PLATFORMS
   aarch64-linux
   aarch64-linux-android
-  aarch64-linux-gnu
   aarch64-linux-musl
+  arm-linux
   arm-linux-androideabi
-  arm-linux-gnueabihf
   arm-linux-musleabihf
   arm64-darwin
   ruby
   x86-linux
   x86-linux-android
-  x86-linux-gnu
   x86-linux-musl
   x86_64-darwin
   x86_64-linux
   x86_64-linux-android
-  x86_64-linux-gnu
   x86_64-linux-musl
 
 DEPENDENCIES
@@ -301,7 +298,7 @@ DEPENDENCIES
   bigdecimal
   csv
   github-pages
-  webrick
+  webrick (>= 1.8.2)
 
 BUNDLED WITH
    2.5.3

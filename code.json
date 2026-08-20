@@ -1,8 +1,9 @@
 {
   "name": "income-reporting-playbook",
+  "version": "",
   "description": "The Income Reporting Playbook will offer guidance and templates to improve the client experience of providing income during benefit applications and renewals. It is currently being developed by Nava in conjunction with USDS and DSAC.",
   "longDescription": "This project is being developed by Nava in collaboration with USDS. The Income Reporting Playbook will offer guidance and templates to improve the client experience of providing income during benefit applications and renewals. In this playbook, you’ll find: Recommended best practices, Common terms and plain language definitions, Example language and visual templates for income Following this guidance can improve application form accessibility, equity, and usability.",
-  "status": "Production",
+  "status": "Archival",
   "permissions": {
     "license": [
       {
@@ -15,10 +16,25 @@
   },
   "organization": "Centers for Medicare & Medicaid Services",
   "repositoryURL": "https://github.com/DSACMS/income-reporting-playbook",
+  "repositoryHost": "github.com/DSACMS",
+  "repositoryVisibility": "public",
+  "homepageURL": "",
+  "downloadURL": "",
+  "disclaimerURL": "",
+  "disclaimerText": "",
   "vcs": "git",
-  "laborHours": 2295,
-  "platforms": ["web"],
-  "categories": ["resource-management", "knowledge-management"],
+  "laborHours": 2377,
+  "reuseFrequency": {
+    "forks": 0,
+    "clones": 0
+  },
+  "platforms": [
+    "web"
+  ],
+  "categories": [
+    "resource-management",
+    "knowledge-management"
+  ],
   "softwareType": "standalone/web",
   "languages": [
     "HTML",
@@ -28,23 +44,41 @@
     "Ruby"
   ],
   "maintenance": "internal",
+  "contractNumber": [],
+  "SBOM": "https://github.com/DSACMS/income-reporting-playbook/network/dependencies",
+  "relatedCode": [],
+  "reusedCode": [],
+  "partners": [],
   "date": {
     "created": "2023-09-29T19:39:30Z",
-    "lastModified": "2025-02-12T18:57:31Z",
-    "metaDataLastUpdated": "2025-02-12T18:58:41.245Z"
+    "lastModified": "2025-02-13T18:57:44Z",
+    "metadataLastUpdated": "2026-08-20T14:30:41.714Z"
   },
-  "tags": ["repository", "playbook"],
+  "tags": [
+    "cmsoss-tier1",
+    "income",
+    "playbook",
+    "reporting",
+    "archived"
+  ],
   "contact": {
     "email": "opensource@cms.hhs.gov",
     "name": "CMS/OA/DSAC"
   },
+  "feedbackMechanism": "https://github.com/DSACMS/income-reporting-playbook/issues",
+  "AIUseCaseID": "0",
   "localisation": false,
   "repositoryType": "website",
   "userInput": false,
   "fismaLevel": "low",
   "group": "CMS/OA/DSAC",
-  "subsetInHealthcare": ["operational"],
-  "userType": ["government"],
-  "repositoryHost": "github.com/DSACMS",
+  "projects": [],
+  "systems": [],
+  "subsetInHealthcare": [
+    "operational"
+  ],
+  "userType": [
+    "government"
+  ],
   "maturityModelTier": 1
 }

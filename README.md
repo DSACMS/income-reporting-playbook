@@ -1,4 +1,7 @@
 # Income Reporting Playbook
+> [!WARNING]
+> This project is now archived and no longer actively maintained. It has been archived to retain its contents for reference. Feel free to explore and fork the repository, but please note that updates or support will not be provided.
+
 
 ## Disclaimer
 **_This playbook is \*\*NOT\*\* a source of authoritative, legal, or regulatory guidance and has not been officially endorsed by the Center for Medicaid and CHIP Services (CMCS) or the Food and Nutrition Service (FNS). It is advisory only, and should be adapted appropriately for each state and scenario. Ultimately, it is the responsibility of state Medicaid and Supplemental Nutrition Assistance Program (SNAP) officials to ensure that implementation of any project is compliant with federal Medicaid and SNAP statute and regulations._**
